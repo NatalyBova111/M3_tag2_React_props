@@ -1,0 +1,55 @@
+.animal-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  padding: 16px 16px 12px;
+}
+
+.animal-card__header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.animal-card__emoji {
+  font-size: 44px;
+  display: block;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.animal-card__name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.animal-card__species {
+  margin: 4px 0 0;
+  color: #6b7280;
+}
+
+.animal-card__meta {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 12px;
+  display: grid;
+  row-gap: 6px;
+}
+
+.animal-card__btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 9999px;
+  background: #0ea5e9;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.animal-card__facts {
+  margin: 0;
+  padding-left: 18px;
+}
